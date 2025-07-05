@@ -1,0 +1,119 @@
+    body {
+      background-color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      color: #111;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .section-dark {
+      background-color: #f9f9f9;
+      color: #111;
+    }
+
+    .section-grey {
+      background-color: #f1f1f1;
+      color: #111;
+    }
+
+    .hero-section {
+      min-height: 100vh;
+      background-color: #e9ecef;
+      padding: 80px 0;
+      color: #111;
+    }
+
+    .navbar {
+      background-color: #ffffff !important;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .navbar .nav-link {
+      color: #333 !important;
+      transition: color 0.3s ease;
+    }
+
+    .navbar .nav-link:hover {
+      color: #6e8afb !important;
+    }
+
+    .typing-animation {
+      border-right: 2px solid #111;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 3s steps(30, end) forwards, blink 0.7s step-end infinite, fadeUp 1s ease-in-out;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .bg-dark {
+      background-color: #e0e0e0 !important;
+      color: #111;
+      padding: 10px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .bg-dark:hover {
+      background-color: #d6d6d6 !important;
+      transform: scale(1.05);
+      transition: all 0.3s ease;
+    }
+
+    .btn {
+      transition: all 0.3s ease;
+    }
+
+    .btn-success {
+      background-color: #6e8afb;
+      border-color: #6e8afb;
+      color: white;
+    }
+
+    .btn-success:hover {
+      background-color: #506bdf;
+      color: white;
+    }
+
+    .btn-outline-light {
+      border-color: #6e8afb;
+      color: #6e8afb;
+    }
+
+    .btn-outline-light:hover {
+      background-color: #6e8afb;
+      color: white;
+    }
+
+    a img {
+      transition: transform 0.3s ease;
+    }
+
+    a:hover img {
+      transform: scale(1.2);
+    }
+
+    footer.bg-black {
+      background-color: #f8f9fa !important;
+      color: #333;
+    }
+
+    footer a img {
+      filter: invert(1);
+    }
